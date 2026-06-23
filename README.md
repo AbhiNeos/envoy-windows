@@ -58,9 +58,10 @@ Throughout this guide, replace these placeholders:
 Open PowerShell and run:
 
 ```powershell
-mkdir C:\apigee-envoy-docker\config\policy-secret
-mkdir C:\apigee-envoy-docker\config\analytics-secret
-cd C:\apigee-envoy-docker
+mkdir \apigee-envoy-docker
+mkdir \apigee-envoy-docker\config\policy-secret
+mkdir \apigee-envoy-docker\config\analytics-secret
+cd \apigee-envoy-docker
 ```
 
 ---
@@ -160,7 +161,7 @@ static_resources:
 
 ## Step 3: Create Docker Compose File
 
-Create file `docker-compose.yml`:
+Create file `\apigee-envoy-docker\docker-compose.yml`:
 
 ```yaml
 services:
