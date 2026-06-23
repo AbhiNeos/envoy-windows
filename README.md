@@ -45,11 +45,11 @@ gcloud config set project YOUR_GCP_PROJECT_ID
 
 Throughout this guide, replace these placeholders:
 
-| Variable | Example | Description |
-|----------|---------|-------------|
-| `YOUR_ORG` | `neosalpha-apigee` | Your Apigee X org name (usually GCP project ID) |
-| `YOUR_ENV` | `sandbox` | Your Apigee environment name |
-| `YOUR_RUNTIME` | `sandbox.neosalpha.in` | Your Apigee runtime hostname |
+| Variable | Description |
+|----------|-------------|
+| `YOUR_ORG` | Your Apigee X org name (usually GCP project ID) |
+| `YOUR_ENV` | Your Apigee environment name |
+| `YOUR_RUNTIME` | Your Apigee runtime hostname |
 
 ---
 
